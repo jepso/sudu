@@ -1,0 +1,18 @@
+{
+  "author": "Forbes Lindesay <contact@jepso.com> (JEPSO)",
+  "name": "sudu",
+  "description": "SUDU is a sudoku solving library complete with working example app.",
+  "version": "0.0.0",
+  "homepage": "http://www.jepso.com/sudu/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jepso/sudu.git"
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
