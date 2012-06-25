@@ -205,7 +205,7 @@
 	 *     
 	 *     //Adding diagonals as well
 	 *     var groups = sudoku.getDefaultGroups();
-	 *	   groups.push([0,10,20,30,40,50,60,70,80]);
+	 *     groups.push([0,10,20,30,40,50,60,70,80]);
 	 *     groups.push([8,16,24,32,40,48,56,64,72]);
 	 *     var solver = sodoku.problemType(null, null, groups);
 	 *
