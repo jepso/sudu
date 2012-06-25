@@ -1,6 +1,6 @@
 # SUDU
 
-SUDU is a library for sudoku solving in either the browser, or node.js (available on npm).
+SUDU is a library for sudoku solving in either the browser, or node.js (available on npm).  You can see a browser example at www.jepso.com/sudu/
 
 ## Puzzle Format
 
