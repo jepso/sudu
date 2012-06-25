@@ -188,7 +188,7 @@
 	 * Get the default lenght of a sudoku puzle, used internally.
 	 * 
 	 * @returns {number}
-	 * @api private
+	 * @api public
 	 */
 	function getDefaultLength(){
 		return 9*9;
@@ -205,8 +205,8 @@
 	 *     
 	 *     //Adding diagonals as well
 	 *     var groups = sudoku.getDefaultGroups();
-	 *	   groups.add([0,10,20,30,40,50,60,70,80]);
-	 *     groups.add([8,16,24,32,40,48,56,64,72]);
+	 *	   groups.push([0,10,20,30,40,50,60,70,80]);
+	 *     groups.push([8,16,24,32,40,48,56,64,72]);
 	 *     var solver = sodoku.problemType(null, null, groups);
 	 *
 	 * @return {array} an array of arrays of cell indexes.
