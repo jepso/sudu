@@ -66,7 +66,7 @@
 		return puzzle;
 	}
 	function attach(el, handler) {
-		el.addEventListener('click', solve, false);
+		el.addEventListener('click', handler, false);
 	}
 	attach(btnSolve, solve);
 	attach(btnReset, reset);
