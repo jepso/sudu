@@ -323,4 +323,4 @@
 			return Array.isArray;
 		}
 	}());
-}(typeof exports === 'undefined'?this['sudoku']={}:exports));
+}(typeof exports === 'undefined'?window.sudoku={}:exports));

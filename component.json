@@ -1,0 +1,14 @@
+{
+  "name": "sudu",
+  "repo": "ForbesLindesay/sudu",
+  "description": "Sudoku solver",
+  "version": "1.0.0",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ],
+  "twitter": "@ForbesLindesay"
+}
